@@ -207,11 +207,35 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .mt-\[0px\] {
+    margin-top: 0px;
+  }
+  .mt-\[20px\] {
+    margin-top: 20px;
+  }
   .mt-\[30px\] {
     margin-top: 30px;
   }
+  .mt-\[35px\] {
+    margin-top: 35px;
+  }
+  .mt-\[40px\] {
+    margin-top: 40px;
+  }
+  .mt-\[50\] {
+    margin-top: 50;
+  }
+  .mt-\[50px\] {
+    margin-top: 50px;
+  }
   .mt-\[55px\] {
     margin-top: 55px;
+  }
+  .mt-\[65px\] {
+    margin-top: 65px;
+  }
+  .mt-\[70px\] {
+    margin-top: 70px;
   }
   .mb-1 {
     margin-bottom: calc(var(--spacing) * 1);
@@ -390,9 +414,6 @@
   }
   .text-left {
     text-align: left;
-  }
-  .font-coustard {
-    font-family: var(--font-coustard);
   }
   .font-jost {
     font-family: var(--font-jost);
