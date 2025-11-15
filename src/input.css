@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 
 @import "tailwindcss";
@@ -10,4 +10,5 @@
   --font-jost: "jost", sans-serif; 
   --font-rye: "Rye", serif;
   --font-prism:  "Tilt Prism", sans-serif;
+  --font-coustard:"Coustard", serif;
 }
