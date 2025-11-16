@@ -45,7 +45,7 @@
         </header>
 
 
-        <div class="py-[10px] md:px-[10px] px-[5px] text-center mt-[35px]">
+        <div class="py-[10px] md:px-[10px] px-[5px] text-center ">
             <h1
                 class="text-center capitalize lg:text-[60px] md:pt-[50px] pt-[60px] text-[35px] font-bold text-white text-shadow-2xs font-prism">
                 make yourself at home <br> in our hotel
@@ -61,55 +61,61 @@
 
         <button
             class=" border bg-white block mx-auto md:px-[30px] md:py-[10px] md:mt-[30px] px-[25px] py-[10px]  mt-[65px] hover:bg-transparent hover:text-white  duration-700 md:text-[16px] cursor-pointer animate-bounce">
-            ---- BOO NOW ----
+            ----BOOK NOW----
         </button>
     </section>
 
 
+    <section>
+        <div
+            class="max-w-6xl font-jost  mx-auto p-4 md:absolute md:bottom-[-80px] md:-translate-x-1/2 translate-y1/2 md:max-w-6xl md:left-1/2 md:w-11/12  rounded-lg md:p-6 ">
+            <div class="bg-white shadow-lg rounded-lg p-6 ">
+                <form action="" class="flex flex-col md:flex-row md:items-end gap-4">
+                    <div class="flex flex-col flex-1">
+                        <label for="check-in" class="text-sm font-medium text-gray-500 mb-1">Check-in</label>
+                        <input type="date" id="check-in"
+                            class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+                    </div>
 
-    <div class="max-w-6xl font-jost  mx-auto p-4 md:absolute md:bottom-[-80px] md:-translate-x-1/2 translate-y1/2 md:max-w-6xl md:left-1/2 md:w-11/12  rounded-lg md:p-6 ">
-        <div class="bg-white shadow-lg rounded-lg p-6 ">
-            <form action="" class="flex flex-col md:flex-row md:items-end gap-4">
-                <div class="flex flex-col flex-1">
-                    <label for="check-in" class="text-sm font-medium text-gray-500 mb-1">Check-in</label>
-                    <input type="date" id="check-in" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
-                </div>
+                    <div class="flex flex-col flex-1">
+                        <label for="check-out" class="text-sm font-medium text-gray-500 mb-1">Check-in</label>
+                        <input type="date" id="check-out"
+                            class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+                    </div>
 
-                <div class="flex flex-col flex-1">
-                    <label for="check-out"  class="text-sm font-medium text-gray-500 mb-1">Check-in</label>
-                    <input type="date" id="check-out" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
-                </div>
+                    <div class="flex flex-col flex-1">
+                        <label for="adults" class="text-sm capitalize text-gray-500 mb-1">adults</label>
+                        <select name="adults" id="adults"
+                            class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+                            <option value="1">1</option>
+                            <option value="2" selected>2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
 
-                <div class="flex flex-col flex-1">
-                    <label for="adults" class="text-sm capitalize text-gray-500 mb-1">adults</label>
-                    <select name="adults" id="adults"  class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
-                        <option value="1">1</option>
-                        <option value="2" selected >2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                    </select>
-                </div>
 
-                
-                <div class="flex flex-col flex-1">
-                    <label for="children" class="text-sm capitalize text-gray-500 mb-1">children</label>
-                    <select name="children" id="children"  class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
-                        <option value="0" selected >0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                    </select>
-                </div>
+                    <div class="flex flex-col flex-1">
+                        <label for="children" class="text-sm capitalize text-gray-500 mb-1">children</label>
+                        <select name="children" id="children"
+                            class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+                            <option value="0" selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
 
-                <button type="submit" class="w-full md:w-auto bg-gray-800 text-white font-bold py-2 px-6 rounded-md hover:bg-gray-700">
-                    Check Availability
-                </button>
-            </form>
+                    <button type="submit"
+                        class="w-full md:w-auto bg-gray-800 text-white font-bold py-2 px-6 rounded-md hover:bg-gray-700">
+                        Check Availability
+                    </button>
+                </form>
+            </div>
         </div>
-    </div>
-
+    </section>
 
     <section class="bg-white md:py-[100px] py-[80px]">
         <div class="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-7 md:gap-2  grid-cols-1 ">
@@ -119,9 +125,11 @@
             </figure>
 
             <article class="px-[30px]">
-                <h2 class="md:text-[40px] text-[25px] font-jost font-bold text-[#003253] text-center capitalize  md:text-left">
+                <h2
+                    class="md:text-[40px] text-[25px] font-jost font-bold text-[#003253] text-center capitalize  md:text-left">
                     <!-- Why Choose Our Hotel -->
-                     welcome to <span class="text-yellow-500"> hotel  <br class="hidden md:block "> the haven </span> of your weekend
+                    welcome to <span class="text-yellow-500"> hotel <br class="hidden md:block "> the haven </span> of
+                    your weekend
                 </h2>
                 <h3 class="md:text-[15px] text-[13px] text-[#003253] font-medium font-jost pt-[20px]">
                     Comfort, Convenience, and Care—All in One Place
@@ -149,6 +157,75 @@
         </div>
     </section>
 
+
+    <section>
+
+        <h1
+            class="md:text-[40px] text-[25px] font-jost font-bold text-[#003253] text-center capitalize  md:text-center">
+            Our Most <span class="text-yellow-500"> Loved </span> Spaces</h1>
+
+
+        <div
+            class="max-w[1240px] mx-auto grid md:grid-cols-3 md:gap-7  gap-8 grid-cols-1 items-center md:px-[100px] mb-[20px] pt-[20px]">
+
+            <div class=" w-full max-w-auto mx-auto flex  relative justify-center overflow-hidden rounded-md">
+                <img src="images/room1.webp" alt="" width="75%" class="md:w-[100%] rounded-md">
+
+                <div class="absolute inset-0 flex flex-col justify-center items-center p-4">
+                    <h2>
+                        Royal Suit
+                    </h2>
+                    <p>
+                        discover five of our favourite dresses from our new collection that are collection that are
+                        desti to be worn and loved immediatelly
+                    </p>
+
+                    <h2>$220/per night</h2>
+                </div>
+            </div>
+
+
+
+
+            <div class=" flex justify-center overflow-hidden rounded-md ">
+                <img src="images/room2.webp" alt="" width="75%" class="md:w-[100%] rounded-md">
+            </div>
+
+
+            <div class=" flex justify-center rounded-md overflow-hidden">
+                <img src="images/room3.webp" alt="" width="75%" class="md:w-[100%] rounded-md" />
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="w-full md:h-[160px] bg-[url('images/countimg.jpg')] bg-cover bg-center text-white py-16">
+            <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+
+                <div class="text-center">
+                    <h3 class="text-5xl font-bold counter" data-target="1287">0</h3>
+                    <p class="text-gray-200 mt-2">Happy Clients</p>
+                </div>
+
+                <div class="text-center">
+                    <h3 class="text-5xl font-bold counter" data-target="5786">0</h3>
+                    <p class="text-gray-200 mt-2">New Friendships</p>
+                </div>
+
+                <div class="text-center">
+                    <h3 class="text-5xl font-bold counter" data-target="1440">0</h3>
+                    <p class="text-gray-200 mt-2">Five Start Ratings</p>
+                </div>
+
+                <div class="text-center">
+                    <h3 class="text-5xl font-bold counter" data-target="7110">0</h3>
+                    <p class="text-gray-200 mt-2">Served Breakfast</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
 
