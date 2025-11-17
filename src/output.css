@@ -309,6 +309,12 @@
   .h-\[100vh\] {
     height: 100vh;
   }
+  .h-\[120vh\] {
+    height: 120vh;
+  }
+  .h-\[130vh\] {
+    height: 130vh;
+  }
   .h-full {
     height: 100%;
   }
@@ -742,6 +748,11 @@
   .md\:bottom-\[-80px\] {
     @media (width >= 48rem) {
       bottom: -80px;
+    }
+  }
+  .md\:bottom-\[-100px\] {
+    @media (width >= 48rem) {
+      bottom: -100px;
     }
   }
   .md\:left-1\/2 {
