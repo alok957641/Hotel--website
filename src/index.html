@@ -299,7 +299,7 @@
             class="md:text-[40px] text-[25px] font-jost font-bold text-[#003253] text-center capitalize  md:text-center">
             Happy <span class="text-yellow-500">Clients</span> </h1>
 
-        <div class="mt-[20px] gap-6 flex justify-center items-center flex-col md:flex-row px-[50px]">
+        <div class="mt-[20px] gap-6 grid  justify-center items-center  grid-cols-1 md:grid-cols-3 px-[50px]">
             <div class=" gap-4 bg-gray-800 rounded-xl flex justify-start    flex-row  p-6 md:p-3">
                 <div>
                     <img src="images/client1.png" alt="" width="60px" class="rounded-full md:w-[60px]">
@@ -352,8 +352,8 @@
                 </div>
 
                 <div class="flex flex-col gap-3 ">
-                    <p class="text-[15px]  capitalize text-gray-500">Clean rooms, friendly staff, and a smooth check-in.
-                        I’ll definitely book again!</p>
+                    <p class="text-[15px]  capitalize text-gray-500">Excellent service and quick support. I booked in
+                        minutes and felt welcomed the moment I arrived</p>
 
                     <h2 class="text-[17px] font-medium text-white md:text-left ">Anant Raj</h2>
 
@@ -378,19 +378,23 @@
 
     <!-- contect us  section  -->
 
-    <section class="md:px-[100px] px-5">
+    <section class="md:px-[100px] px-5 capitalize mt-[100px]">
         <div class="bg-[url('images/contect.png')] bg-cover bg-center mt-9 w-[100%] h-[50vh] rounded-lg relative ">
-            <h2 class="">
-                Experience Luxurious Comfort
-            </h2>
+            <div class="p-6 absolute top-10 md:left-85">
+                <h2 class="text-center text-[20px] md:text-[30px] text-white font-bold font-jost ">
+                    Experience <span class="text-yellow-500">Luxurious </span> Comfort
+                </h2>
 
-            <p class="">
-                your perfect gateway in the heart of My Hotel
-            </p>
+                <p class=" md:text-[20px] text-[15px] font-jost text-center text text-white mt-6">
+                    your perfect gateway in the heart of My Hotel
+                </p>
 
-            <button>
-                Book your stay
-            </button>
+                <button
+                    class=" border-2 capitalize rounded-xl mx-auto border-white bg-transparent block  md:px-[25px] md:py-[5px]  px-[25px] py-[5px]   hover:bg-white hover:text-black  text-white duration-700 md:text-[16px] cursor-pointer mt-6  animate-bounce">
+                    Book your stay
+
+                </button>
+            </div>
         </div>
     </section>
 
@@ -399,15 +403,29 @@
 
     <!-- footer section  -->
 
- <footer>
-    <div>
-        <h2>About us </h2>
+    <footer>
+        <div class="mt-[50px] px-8 mb-[80px]">
+            <h2 class="text-center text-[25px] md:text-[40px] text-[#003253] capitalize font-bold font-jost ">
+                    about <span class="text-yellow-500">Us </span>
+                </h2>
 
-        <p>
-            
-        </p>
-    </div>
- </footer>
+                <p class="text-[15px] md:text-[17px] pt-[35px] font-jost text-stone-600 text-center px-3">
+                    Our hotel offers a peaceful stay with modern amenities and personalized service. <br class=" md:block hidden"> Whether you're
+                    traveling for work or leisure, we ensure comfort, cleanliness, and convenience <br class=" md:block hidden"> at every step.  From
+                    cozy rooms to 24/7 support, we make your stay memorable and stress-free.
+                </p>
+
+            <div class=" text-center mt-[20px] text-red-500">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+
+            </div>
+
+            <p class="text-[17px] md:text-[17px]  font-jost text-stone-600 text-center mt-9 " >Made with by  <i class="fa-regular fa-heart text-red-500"></i> Rajalok69</p>
+        </div>
+    </footer>
 
 
 
