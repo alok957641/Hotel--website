@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="icon" type="img" href="images/favicon.png">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+
+    <!-- nav and hero section  -->
+    <section class="bg-[url('images/image.png')] bg-cover bg-center w-[100%] md:h-[50vh] h-[50vh] md:relative ">
+
+        <header class="md:py-5 md:p-7 p-4">
+            <div class="max-w[1240px] mx-auto flex justify-between items-center ">
+                <figure>
+                    <img src="images/logo.png" class="md:h-[45px] h-[36px]" alt="logo">
+                </figure>
+
+                <nav class=" md:w-auto w-[60%] md:h-auto h-screen duration-500 md:p-0 p-3 bg-[#003253] md:bg-[transparent] md:static fixed top-0 left-[-100%] z-9"
+                    id="navlink">
+                    <ul
+                        class="flex md:flex-row flex-col gap-5 w-[100%] h-[100%] items-center justify-center gap-11 uppercase">
+                        <li><a class="text-white text-[17px] font-jost " href="index.html">home</a></li>
+                        <li><a class="text-white text-[17px] font-jost " href="about.html">about</a></li>
+                        <li><a class="text-white text-[17px] font-jost " href="room.html">rooms</a></li>
+                        <li><a class="text-white text-[17px] font-jost " href="">gallery</a></li>
+                        <li><a class="text-white text-[17px] font-jost " href="">price</a></li>
+                        <li><a class="text-white text-[17px] font-jost " href="">blog</a></li>
+                        <li><a class="text-white text-[17px] font-jost " href="">contect us</a></li>
+
+                    </ul>
+                </nav>
+
+                <button class=" md:hidden block" id="micon">
+                    <i class="fa-solid fa-bars text-white text-[22px]"></i>
+                </button>
+            </div>
+        </header>
+
+
+        <div class="py-[10px] md:px-[10px] px-[5px] text-center ">
+            <h1
+                class="text-center capitalize lg:text-[60px] md:pt-[50px] pt-[60px] text-[35px] font-bold text-white text-shadow-2xs font-prism">
+                Our Rooms
+            </h1>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- rooms card -->
+
+    <section class="mt-[100px]">
+
+        
+        <h2
+            class="md:text-[40px] text-[25px] font-jost font-bold text-[#003253] text-center capitalize  md:text-center ">
+            Explore Our  <span class="text-yellow-500"> Comfortable & Stylish</span> Rooms </h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-8"">
+            <!--  1. Standard Room  -->
+            
+            <div class=" max-w-sm bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+            <img src="images/rooms1.jpg" alt="Deluxe Room" class="w-full h-48 object-cover">
+
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Deluxe Room</h3>
+                <p class="text-gray-600 mb-3">
+                    Spacious and elegant room with king-size bed, smart TV, and complimentary breakfast. Perfect for
+                    couples or solo travelers.
+                </p>
+
+                <ul class="list-disc list-inside text-gray-700 mb-4">
+                    <li>Free Wi-Fi</li>
+                    <li>Air Conditioning</li>
+                    <li>Attached Bathroom</li>
+                    <li>Smart TV</li>
+                </ul>
+
+                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300">
+                    Book Now
+                </button>
+            </div>
+        </div>
+
+        <!-- 2.  Deluxe Room  -->
+
+        <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+            <img src="images/rooms2.jpg" alt="Deluxe Room" class="w-full h-48 object-cover">
+
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Standard Room</h3>
+                <p class="text-gray-600 mb-3">
+                    A cozy and affordable option with all essential amenities for a comfortable stay.
+                </p>
+
+                <ul class="list-disc list-inside text-gray-700 mb-4">
+                    <li>Free Wi-Fi</li>
+                    <li>Ceiling Fan</li>
+                    <li>Attached Bathroom</li>
+                    <li>Smart TV</li>
+                </ul>
+
+                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300">
+                    Book Now
+                </button>
+            </div>
+        </div>
+
+
+        <!-- 3. Executive Room -->
+
+        <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+            <img src="images/rooms3.jpg" alt="Deluxe Room" class="w-full h-48 object-cover">
+
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Executive Room</h3>
+                <p class="text-gray-600 mb-3">
+                    Ideal for business travelers with a work desk, fast Wi-Fi, and peaceful ambiance.
+                </p>
+
+                <ul class="list-disc list-inside text-gray-700 mb-4">
+                    <li>Work Desk</li>
+                    <li>High-Speed Wi-Fi</li>
+                    <li>24/7 Room Service</li>
+
+                </ul>
+
+                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300">
+                    Book Now
+                </button>
+            </div>
+        </div>
+
+        <!--4. Suite Room -->
+
+        <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+            <img src="images/rooms4.jpeg" alt="Deluxe Room" class="w-full h-48 object-cover">
+
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Suite Room</h3>
+                <p class="text-gray-600 mb-3">
+                    Premium experience with separate living area, luxury interiors, and top-tier amenities.
+                </p>
+
+                <ul class="list-disc list-inside text-gray-700 mb-4">
+                    <li>King-size Bed</li>
+                    <li>Mini Fridge & Sofa Set</li>
+                    <li>Complimentary Breakfast</li>
+
+                </ul>
+
+                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300">
+                    Book Now
+                </button>
+            </div>
+        </div>
+
+
+        <!--5. Family Room (Optional) -->
+
+        <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+            <img src="images/rooms5.jpg" alt="Deluxe Room" class="w-full h-48 object-cover">
+
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Family Room</h3>
+                <p class="text-gray-600 mb-3">
+                    Spacious room with multiple beds, perfect for families traveling together.
+                </p>
+
+                <ul class="list-disc list-inside text-gray-700 mb-4">
+                    <li>Double Bed + Single Bed</li>
+                    <li>Child-Friendly Amenities</li>
+                    <li>Television & Wardrobe</li>
+
+                </ul>
+
+                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300">
+                    Book Now
+                </button>
+            </div>
+        </div>
+
+        <!-- 6. Single Room (Optional) -->
+
+        <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+            <img src="images/room6.png" alt="Deluxe Room" class="w-full h-48 object-cover">
+
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Single Room</h3>
+                <p class="text-gray-600 mb-3">
+                    Compact and budget-friendly room ideal for solo travelers or short stays.
+                </p>
+
+                <ul class="list-disc list-inside text-gray-700 mb-4">
+                    <li>Single Bed</li>
+                    <li>Reading Light</li>
+                    <li>Private Washroom</li>
+
+                </ul>
+
+                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300">
+                    Book Now
+                </button>
+            </div>
+        </div>
+
+
+        </div>
+    </section>
+
+
+
+
+    <section class="mt-11">
+
+        <h2
+            class="md:text-[40px] text-[25px] font-jost font-bold text-[#003253] text-center capitalize  md:text-center ">
+            🛎️ Room <span class="text-yellow-500">Booking </span> Policy </h2>
+
+
+        <div class="md:mx-[100px]">
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-8"">
+            
+            
+            <div class=" max-w-sm bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+
+
+                <div class="p-4">
+                    <h3 class="text-stone-600 font-bold font-jost mt-0 md:text-center md:mb-4">✅ Check-In & Check-Out
+                    </h3>
+                    <p class="text-gray-600 mb-3 md:text-center mt-5 text-left md:pl-0 pl-[15px] "> Guests can check-in
+                        from
+                        12:00 PM onwards. Check-out time is 11:00 AM <br class="hidden md:block">
+                        Early check-in or late check-out is subject to availability and may incur additional charges.
+                    </p>
+
+
+                </div>
+            </div>
+
+
+
+            <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+
+
+                <div class="p-4">
+
+                    <h3 class="text-stone-600 font-bold font-jost mt-0 md:text-center">✅ Booking & Payment Terms </h3>
+                    <ul class=" text-gray-700 mt-6 ">
+                        <li>- Advance booking is recommended to ensure room availability. </li>
+                        <li> - We accept UPI, debit/credit cards, and cash payments. </li>
+                        <li>- Full payment is required at the time of check-in. </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+            <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+
+
+                <h3 class="text-stone-600 font-bold font-jost mt-7 md:text-center">✅ Cancellation Policy </h3>
+                <ul class=" text-gray-700 mt-6 pl-5">
+                    <li>- Free cancellation up to 24 hours before check-in. </li>
+                    <li>- 50% charge for cancellations within 24 hours of check-in. </li>
+                    <li>- No refund for no-shows or same-day cancellations. </li>
+                </ul>
+
+
+                <div class="p-4">
+
+                </div>
+            </div>
+
+
+
+            <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+
+
+                <div class="p-4">
+
+                    <h3 class="text-stone-600 font-bold font-jost mt-0 md:text-center"> ✅ Guest Identification </h3>
+                    <p class="text-gray-600 mb-3 md:text-center mt-5 text-left md:pl-0 pl-[15px] ">All guests must
+                        present a
+                        valid government-issued <br class="hidden md:block"> photo ID (Aadhar, PAN, Passport, or Driving
+                        License) at
+                        the
+                        time
+                        of check-in. </p>
+                </div>
+            </div>
+
+
+            <!--5. Family Room (Optional) -->
+
+            <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+
+
+                <div class="p-4">
+                    <h3 class="text-stone-600 font-bold font-jost mt-7 md:text-center"> ✅ House Rules </h3>
+
+                    <ul class="text-gray-700   mt-0 ">
+
+                        <li> - 🚭 No smoking inside the rooms </li>
+                        <li> - 🐾 Pets are not allowed</li>
+                        <li>- 🍽️ Outside food is allowed but must be consumed in designated areas</li>
+                        <li>- 🔕 Maintain silence after 10:00 PM for the comfort of all guests</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 6. Single Room (Optional) -->
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Happy Client  -->
+
+    <section>
+
+        <h1
+            class="md:text-[40px] text-[25px] font-jost font-bold text-[#003253] text-center capitalize  md:text-center">
+            Happy <span class="text-yellow-500">Clients</span> </h1>
+
+        <div class="mt-[20px] gap-6 grid  justify-center items-center  grid-cols-1 md:grid-cols-3 px-[50px]">
+            <div class=" gap-4 bg-gray-800 rounded-xl flex justify-start    flex-row  p-6 md:p-3">
+                <div>
+                    <img src="images/client1.png" alt="" width="60px" class="rounded-full md:w-[60px]">
+                </div>
+
+                <div class="flex flex-col gap-3 ">
+                    <p class="text-[15px]  capitalize text-gray-500">Booking was smooth and the room exceeded my
+                        expectations. Clean, cozy, and
+                        perfectly located!</p>
+
+                    <h2 class="text-[17px] font-medium text-white md:text-left ">Priyanshu Prem</h2>
+
+                    <div>
+                        <i class="fa-solid fa-star text-yellow-500 "></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star-half text-yellow-500"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class=" gap-4 bg-gray-800 rounded-xl flex justify-start    flex-row  p-6 md:p-3">
+                <div>
+                    <img src="images/client2.jpg" alt="" width="60px" class="rounded-full md:w-[60px]">
+                </div>
+
+                <div class="flex flex-col gap-3 ">
+                    <p class="text-[15px]  capitalize text-gray-500">I loved how easy it was to find and book a room.
+                        The whole process took just minutes!!</p>
+
+                    <h2 class="text-[17px] font-medium text-white md:text-left ">Ayush</h2>
+
+                    <div>
+                        <i class="fa-solid fa-star text-yellow-500 "></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star-half text-yellow-500"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class=" gap-4 bg-gray-800 rounded-xl flex justify-start    flex-row  p-6 md:p-3">
+                <div>
+                    <img src="images/client3.jpg" alt="" width="60px" class="rounded-full md:w-[60px]">
+                </div>
+
+                <div class="flex flex-col gap-3 ">
+                    <p class="text-[15px]  capitalize text-gray-500">Excellent service and quick support. I booked in
+                        minutes and felt welcomed the moment I arrived</p>
+
+                    <h2 class="text-[17px] font-medium text-white md:text-left ">Anant Raj</h2>
+
+                    <div>
+                        <i class="fa-solid fa-star text-yellow-500 "></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star-half text-yellow-500"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- footer section  -->
+
+    <footer>
+        <div class="mt-[80px] px-8 mb-[80px]">
+            <h2 class="text-center text-[25px] md:text-[40px] text-[#003253] capitalize font-bold font-jost ">
+                about <span class="text-yellow-500">Us </span>
+            </h2>
+
+            <p class="text-[15px] md:text-[17px] pt-[35px] font-jost text-stone-600 md:text-center text-left  px-0">
+                Our hotel offers a peaceful stay with modern amenities and personalized service. <br
+                    class=" md:block hidden"> Whether you're
+                traveling for work or leisure, we ensure comfort, cleanliness, and convenience <br
+                    class=" md:block hidden"> at every step. From
+                cozy rooms to 24/7 support, we make your stay memorable and stress-free.
+            </p>
+
+            <div class=" text-center mt-[20px] text-red-500 flex justify-center gap-11">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+
+            </div>
+
+            <p class="text-[17px] md:text-[17px]  font-jost text-stone-600 text-center mt-9 ">Made with by <i
+                    class="fa-regular fa-heart text-red-500"></i> Rajalok69</p>
+        </div>
+    </footer>
+
+
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
