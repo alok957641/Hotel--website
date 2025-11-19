@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="icon" type="img" href="images/favicon.png">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+
+    <!-- nav and hero section  -->
+    <section class="bg-[url('images/image.png')] bg-cover bg-center w-[100%] md:h-[50vh] h-[50vh] md:relative ">
+
+        <header class="md:py-5 md:p-7 p-4">
+            <div class="max-w[1240px] mx-auto flex justify-between items-center ">
+                <figure>
+                    <img src="images/logo.png" class="md:h-[45px] h-[36px]" alt="logo">
+                </figure>
+
+                <nav class=" md:w-auto w-[60%] md:h-auto h-screen duration-500 md:p-0 p-3 bg-[#003253] md:bg-[transparent] md:static fixed top-0 left-[-100%] z-9"
+                    id="navlink">
+                    <ul
+                        class="flex md:flex-row flex-col gap-5 w-[100%] h-[100%] items-center justify-center gap-11 uppercase">
+                        <li><a class="text-white text-[17px] font-jost " href="index.html">home</a></li>
+                        <li><a class="text-white text-[17px] font-jost " href="about.html">about</a></li>
+                        <li><a class="text-white text-[17px] font-jost " href="room.html">rooms</a></li>
+                        <li><a class="text-white text-[17px] font-jost " href="gallery.html">gallery</a></li>
+                        <li><a class="text-white text-[17px] font-jost " href="price.html">price</a></li>
+                        <li><a class="text-white text-[17px] font-jost " href="blog.html">blog</a></li>
+                        <li><a class="text-white text-[17px] font-jost " href="contect.html">contect us</a></li>
+
+                    </ul>
+                </nav>
+
+                <button class=" md:hidden block" id="micon">
+                    <i class="fa-solid fa-bars text-white text-[22px]"></i>
+                </button>
+            </div>
+        </header>
+
+
+        <div class="py-[10px] md:px-[10px] px-[5px] text-center ">
+            <h1
+                class="text-center capitalize lg:text-[60px] md:pt-[50px] pt-[60px] text-[35px] font-bold text-white text-shadow-2xs font-prism">
+                Price's
+            </h1>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- intro sec -->
+
+    <section class=" mt-[70px]">
+        <h1
+            class="md:text-[40px] text-[25px] font-jost font-bold text-[#003253] text-center capitalize  md:text-center ">
+            Room Rates <span class="text-yellow-500">&</span> Packages</h1>
+        <p class="text-center text-gray-600 max-w-xl mx-auto mb-8">
+            Choose the perfect room for your stay. Transparent pricing, no hidden charges.
+        </p>
+    </section>
+
+
+    <!-- price section  -->
+
+    <section>
+        <table class="w-full border text-left text-gray-700 ">
+
+            <thead class="bg-gray-200">
+                <tr>
+                    <th class="p-3">Room type</th>
+                    <th class="p-3">Price/Night</th>
+                    <th class="p-3">Includes</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr class="border-t">
+                    <td class="p-3">Standard Room</td>
+                    <td class="p-3">₹999</td>
+                    <td class="p-3">Wi-Fi, AC, Attached Bathroom</td>
+                </tr>
+
+                <tr class="border-t">
+                    <td class="p-3">Deluxe Room</td>
+                    <td class="p-3">₹1499</td>
+                    <td class="p-3">King Bed, Breakfast, Smart TV</td>
+                </tr>
+
+                <tr class="border-t">
+                    <td class="p-3">Executive Room</td>
+                    <td class="p-3">₹1799</td>
+                    <td class="p-3">Work Desk, Fast Wi-Fi, 24/7 Service</td>
+                </tr>
+
+                <tr class="border-t">
+                    <td class="p-3">Suite Room</td>
+                    <td class="p-3">₹2499</td>
+                    <td class="p-3">Living Area, Mini Fridge, Sofa</td>
+                </tr>
+
+                <tr class="border-t">
+                    <td class="p-3">Family Room</td>
+                    <td class="p-3">₹4999</td>
+                    <td class="p-3">Double Bed + Single Bed, Breakfast, Smart TV , Child-Friendly Amenities </td>
+                </tr>
+
+                <tr class="border-t">
+                    <td class="p-3">Deluxe Room</td>
+                    <td class="p-3">₹1099</td>
+                    <td class="p-3">King Bed, Breakfast, Smart TV</td>
+                </tr>
+
+            </tbody>
+
+
+        </table>
+
+    </section>
+
+
+
+    <!-- special offer  -->
+
+
+    <section>
+        <h2 class="text-2xl font-semibold mt-10 mb-4 font-jost text-[#003253]-600 text-center">Special Packages</h2>
+        <ul class=" list-inside text-gray-700 md:text-center sm:text-left p-3 md:px-[100px]">
+            <li class="border">Weekend Couple Package – ₹2799 (Deluxe Room + Candlelight Dinner)</li>
+            <li class="border">Business Stay – ₹1999 (Executive Room + Breakfast + Late Checkout)</li>
+            <li class="border">Family Combo – ₹3499 (Family Room + Breakfast for 4 + Free Parking)</li>
+        </ul>
+
+
+
+
+        <p class="text-sm text-gray-500 mt-6 text-center">
+            * All prices are inclusive of GST.
+            * Extra bed: ₹300/night.
+            * Prices may vary during peak season or holidays.
+        </p>
+    </section>
+
+
+
+
+    <div class="text-center mt-8">
+  <a href="/booking" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">
+    Book Your Room Now
+  </a>
+</div>
+
+
+
+
+    <!-- footer section  -->
+
+    <footer>
+        <div class="mt-[80px] px-8 mb-[80px]">
+            <h2 class="text-center text-[25px] md:text-[40px] text-[#003253] capitalize font-bold font-jost ">
+                about <span class="text-yellow-500">Us </span>
+            </h2>
+
+            <p class="text-[15px] md:text-[17px] pt-[35px] font-jost text-stone-600 md:text-center text-left  px-0">
+                Our hotel offers a peaceful stay with modern amenities and personalized service. <br
+                    class=" md:block hidden"> Whether you're
+                traveling for work or leisure, we ensure comfort, cleanliness, and convenience <br
+                    class=" md:block hidden"> at every step. From
+                cozy rooms to 24/7 support, we make your stay memorable and stress-free.
+            </p>
+
+            <div class=" text-center mt-[20px] text-red-500 flex justify-center gap-11">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+
+            </div>
+
+            <p class="text-[17px] md:text-[17px]  font-jost text-stone-600 text-center mt-9 ">Made with by <i
+                    class="fa-regular fa-heart text-red-500"></i> Rajalok69</p>
+        </div>
+    </footer>
+
+
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>

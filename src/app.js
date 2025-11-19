@@ -66,3 +66,11 @@ function startCounter(counterElement) {
 counters.forEach(counter => {
     observer.observe(counter);
 });
+
+
+
+
+
+
+
+
